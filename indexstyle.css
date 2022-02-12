@@ -1,0 +1,111 @@
+/*....SLIDE SHOW....*/
+
+.slideshow-container .mySlides {
+    display: none;
+  }
+  
+  /* tekstovi na slikama */
+.slajd {
+    color: #f2f2f2;
+    font-size: 30px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 5px;
+    width: 100%;
+    text-align: left;
+    padding: 12px;
+    
+  }
+  .slideshow-container .mySlides .img{
+    height: 50%;
+    object-fit: cover;
+  } 
+
+
+
+  /*....TEXT "O NAMA"....*/
+.text{
+    text-align: center;
+    font-size: 20px;
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 150px;
+    line-height: 30px;
+    font-family: 'Josefin Sans', sans-serif;
+}
+  
+
+
+
+
+
+  /*....ČLANOVI TIMA...*/
+
+@import url('https://fonts.googleapis.com/css?family=Allura|Josefin+Sans');
+
+
+
+.wrapper{
+  margin-top: 10%;
+}
+
+
+.wrapper h1{
+  font-family: 'Allura', cursive;
+  font-size: 45px;
+  margin-bottom: 60px;
+  text-align: center;
+}
+
+.team{
+  display: flex;
+  justify-content: center;
+  width: auto;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.team .team_member{
+  background: #fff;
+  margin: 5px;
+  margin-bottom: 50px;
+  width: 250px;
+  padding: 20px;
+  line-height: 20px;
+  color: #8e8b8b;  
+  position: relative;
+}
+
+.team .team_member h3{
+  color: orange;
+  font-size: 27px;
+  margin-top: 120px;
+}
+
+.team .team_member p.role{
+  color: #ccc;
+  margin: 20px 0;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+
+
+.team .team_member .team_img{
+  position: absolute;
+  top: -50px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 180px;
+  height: 180px;
+  
+  background: #fff;
+}
+
+
+.team .team_member .team_img img{
+  width: 160px;
+  height: 150px;
+  padding: 10px;
+}
+
